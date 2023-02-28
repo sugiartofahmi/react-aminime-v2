@@ -1,6 +1,11 @@
 import { atom, selector } from "recoil";
 import axios from "axios";
 
+export const pageState = atom({
+  key: "page-state",
+  default: 1,
+});
+
 export const queryState = atom({
   key: "query-state",
   default: "top/anime",

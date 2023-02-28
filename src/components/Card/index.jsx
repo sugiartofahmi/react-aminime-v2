@@ -2,7 +2,7 @@ import { AiFillStar } from "react-icons/ai";
 const Card = ({ title, image, score, episode, type, aired }) => {
   return (
     <div className="flex flex-col rounded shadow-xl p-3  w-[40vh] min-h-[50vh]">
-      <div className="flex  justify-center items-center  ">
+      <div className="flex  justify-center items-center rounded-lg  ">
         <img
           className="w-full rounded h-80 object-contain aspect-ratio"
           src={image}
